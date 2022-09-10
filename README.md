@@ -10,6 +10,14 @@ This is the final result of the projected obtained @ the step 11 that belongs to
 </p>
 
 <br> -->
+## Pushing to github
+Once created a VS code folder project
+- Create the repository on Github
+- Select the option `Source Control`, select `Initialize Repository`
+- Add a commit message, and select the check mark
+- Go to the option View > Command Palette and seravh for `Git Add Remote`
+- Provide the repository URL and enter, then give a Remote name with the same name as the github repo, finalize with Enter
+- Go to the synchronize button belove and click it (Next to the master branch icon)
 
 ## How to run the project?
 
