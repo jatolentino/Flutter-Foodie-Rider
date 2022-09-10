@@ -1003,3 +1003,16 @@ dependencies {
         });
     }
     ```
+Test 11.1: Compiled @ the branch of [`ver-1.3`](https://github.com/jatolentino/Flutter-Foodie-Riders/tree/v1.3)
+
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie/blob/v1.3/sources/step11-test-1-1.jpeg" width="195">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="https://github.com/jatolentino/Flutter-Foodie/blob/v1.3/sources/step11-test-1-2.png" width="195">     <br><br>
+  <img src="https://github.com/jatolentino/Flutter-Foodie/blob/v1.3/sources/step11-test-1-3.png" width="700">
+</p>
+
+Note that when a user like Jose that is not registered to the rider's app (although registered to the seller's app), he will not be granted permission to access because he does not belong to the risers collection on Firestore
+<p align="center">
+ <img src="https://github.com/jatolentino/Flutter-Foodie/blob/v1.3/sources/step11-test-1-1.jpeg" width="195">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="https://github.com/jatolentino/Flutter-Foodie/blob/v1.3/sources/step11-test-1-2.png" width="195">
+</p>
