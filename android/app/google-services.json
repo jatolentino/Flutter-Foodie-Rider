@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "171411726117",
+    "project_id": "foodie-app-2ccc7",
+    "storage_bucket": "foodie-app-2ccc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171411726117:android:cd8b71758551ae8ebf84cc",
+        "android_client_info": {
+          "package_name": "com.app.foodie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171411726117-ofa9q28t7tnkjm5rtvc7g3blc9uko0ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN2_eBz6t7duQGFhZUcDn7JJze7CK4DWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171411726117-ofa9q28t7tnkjm5rtvc7g3blc9uko0ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171411726117:android:80c9ffb37ecae133bf84cc",
+        "android_client_info": {
+          "package_name": "com.app.foodie_riders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171411726117-ofa9q28t7tnkjm5rtvc7g3blc9uko0ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAN2_eBz6t7duQGFhZUcDn7JJze7CK4DWw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171411726117-ofa9q28t7tnkjm5rtvc7g3blc9uko0ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

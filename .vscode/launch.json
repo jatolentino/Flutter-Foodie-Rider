@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "flutter_login",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "flutter_login (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "flutter_login (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Android",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "emulator-5554"
+        },
+        {
+            "name": "iPhone12pro",
+            "request": "launch",
+            "type": "dart",
+            "deviceId": "8F0CA5A2-8BA5-4695-8A6D-EA2D64E7ED33"
+        },
+    ],
+    "compounds": [
+        {
+            "name": "New Devices",
+            "configurations": ["Android","iPhone12pro"]
+        }
+    ]
+}
