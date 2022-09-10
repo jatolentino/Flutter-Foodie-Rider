@@ -971,7 +971,7 @@ dependencies {
 - In login.dart edit the configuration of login, it has already been modified above
     ```dart
     Future readDataAndSetDataLocally(User currentUser) async{
-        await FirebaseFirestore.instance.collection("riders") //add firebase cloud package
+        await FirebaseFirestore.instance.collection("riders") //checking if the user that is login is the riders collection //add firebase cloud package
         .doc(currentUser.uid)
         .get()
         .then((snapshot) async {
@@ -989,6 +989,7 @@ dependencies {
             else
             {
             firebaseAuth.signOut();
+            sharedPreferences!.clear(); //added this, once you logout, sharedpreferences or cache data will be deleted
             Navigator.pop(context);
             Navigator.push(context, MaterialPageRoute(builder: (c)=> const AuthScreen()));
             showDialog(
