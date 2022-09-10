@@ -1003,7 +1003,7 @@ dependencies {
         });
     }
     ```
-Test 11.1: Compiled @ the branch of [`ver-1.3`](https://github.com/jatolentino/Flutter-Foodie-Riders/tree/v1.3)
+Test 11.1: Compiled @ the branch of [`ver-1.1`](https://github.com/jatolentino/Flutter-Foodie-Rider/tree/v1.1)
 
 <p align="center">
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.1/sources/step11-test-1-1.png" width="195">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
