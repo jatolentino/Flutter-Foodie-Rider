@@ -18,6 +18,7 @@ Once created a VS code folder project
 - Go to the option View > Command Palette and seravh for `Git Add Remote`
 - Provide the repository URL and enter, then give a Remote name with the same name as the github repo, finalize with Enter
 - Go to the synchronize button belove and click it (Next to the master branch icon)
+- In the future, only commit with a new message and push the changes
 
 ## How to run the project?
 
