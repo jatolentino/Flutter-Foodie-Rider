@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ErrorDialog extends StatelessWidget{
+class ErrorDialog extends StatelessWidget
+{
   final String? message;
   ErrorDialog({this.message});
 
@@ -12,7 +13,7 @@ class ErrorDialog extends StatelessWidget{
       actions: [
         ElevatedButton(
           child: const Center(
-            child: Text("ok"),
+            child: Text("OK"),
           ),
           style: ElevatedButton.styleFrom(
             primary: Colors.red,
