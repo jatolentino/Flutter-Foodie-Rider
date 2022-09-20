@@ -2,6 +2,13 @@
 
 This app has the following features:
 
+- Login/Register Screen
+- Firebase databse integration
+- Google maps navigation
+- Dashboard to manage menu orders
+- System administration of payments
+
+
 ## Result of the project
 The final result of this project belong to the [`ver-1.2`](https://github.com/jatolentino/Flutter-Foodie-Rider/tree/v1.2) and it possess a login/register panel a dashboard to manage the shipping workflow and a google-maps integration that draws the route from the seller's store to the end customer.
 
