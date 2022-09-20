@@ -1,9 +1,30 @@
-# Foddie_riders app
+# Foddie Riders Mobile App for IOS and Android
 
 This app has the following features:
 
+- Login/Register Screen
+- Firebase databse integration
+- Google maps navigation
+- Dashboard to manage menu orders
+- System administration of payments
+
+
 ## Result of the project
-This is the final result of the projected obtained @ the step 11 that belongs to the [`ver-1.4`]()
+The final result of this project belong to the [`ver-1.2`](https://github.com/jatolentino/Flutter-Foodie-Rider/tree/v1.2) and it possess a login/register panel a dashboard to manage the shipping workflow and a google-maps integration that draws the route from the seller's store to the end customer.
+
+<p align="center">
+ <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.1/sources/step11-test-1-4.png" width="195">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.1/sources/step11-test-1-5.png" width="195">
+</p><br/>
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-1.jpeg" width="500">
+</p><br/>
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-2-1.jpeg" width="500">
+</p><br/>
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-4.jpeg" width="500">
+</p>
 
 <!-- <p align="center">
     	<img src="https://github.com/jatolentino/Foodie/.../file.png" width="400">
@@ -22,7 +43,7 @@ Once created a VS code folder project
 
 ## How to run the project?
 
-<!-- - Clone the repository and open the terminal and navigate to the `ios` folder, then run:
+Clone the repository and open the terminal and navigate to the `ios` folder, then run:
 
     ```bash
     flutter pub add firebase_auth
@@ -30,12 +51,12 @@ Once created a VS code folder project
     //sudo gem install cocoapods
     flutter pub get
     pod install
-    ``` -->
+    ```
 
+- Configure the firebase database, following the link [`Step 9.1: Create a firebase project`](https://github.com/jatolentino/Flutter-Foodie#configure_firebase)
 
-<!-- 
-- Configure the firebase database, following the Step 8 (`Create a firebase project`).
-- Enjoy! -->
+- Enjoy!
+
 
 ## Follow along
 
@@ -1026,15 +1047,15 @@ In the mainScreens.dart, add the home_screen.dart that will contain the info abo
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-0.jpeg" width="500">
 </p>
 
-- First the riders checks if there are new avalible orders 1
+- First the riders checks if there are new avalible orders.
 <p align="center">
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-1.jpeg" width="500">
 </p>
 
-- Then he/she will decide whether to confirm the order or not. Also, he/she can check where the seller is located through the option `Show Cafe/Restaurant location` that will open the google maps and display a route. 2
+- Then he/she will decide whether to confirm the order or not. Also, he/she can check where the seller is located through the option `Show Cafe/Restaurant location` that will open the google maps and display a route.
 <p align="center">
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-2.jpeg" width="500">
-</p>
+</p><br/>
 <p align="center">
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-2-1.jpeg" width="500">
 </p>
@@ -1046,7 +1067,7 @@ In the mainScreens.dart, add the home_screen.dart that will contain the info abo
 
 - Then he/she goes to location where the customer is to give him/her the product; the moment the product is delivered, he changes the status of the product to delivered. 
 
-- Finally, the earnings are distributed to both the sellers and riders, and the database shows the amount for each one. 5
+- Finally, the earnings are distributed to both the sellers and riders, and the database shows the amount for each one.
 
 <p align="center">
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-4.jpeg" width="500">
