@@ -4,7 +4,7 @@ import 'register.dart';
 
 
 class AuthScreen extends StatefulWidget {
-  const AuthScreen({Key? key}): super(key: key);
+  const AuthScreen({Key? key}) : super(key: key);
 
   @override
   _AuthScreenState createState() => _AuthScreenState();
@@ -19,25 +19,25 @@ class _AuthScreenState extends State<AuthScreen> {
         appBar: AppBar(
           flexibleSpace: Container(
             decoration: BoxDecoration(
-              gradient: LinearGradient( //const linearGradient
+              gradient: LinearGradient(
                 colors: [
-                  Colors.pink.shade400,
                   Colors.red.shade400,
+                  Colors.pink.shade400,
                 ],
-                begin: const FractionalOffset(0.0, 0.5),
-                end: const FractionalOffset(1.0, 0.5),
-                stops: const [0.0, 1.0],
+                begin:  FractionalOffset(0.0, 0.0),
+                end:  FractionalOffset(1.0, 0.0),
+                stops: [0.0, 1.0],
                 tileMode: TileMode.clamp,
               )
             ),
           ),
           automaticallyImplyLeading: false,
           title: const Text(
-            "Foodie",
+              "iFood",
             style: TextStyle(
-              fontSize: 40,
+              fontSize: 60,
               color: Colors.white,
-              fontFamily: "Signatra", //changed
+              fontFamily: "Signatra",
               letterSpacing: 6
             ),
           ),
@@ -54,27 +54,27 @@ class _AuthScreenState extends State<AuthScreen> {
               ),
             ],
             indicatorColor: Colors.white38,
-            indicatorWeight: 7,
-          )
+            indicatorWeight: 6,
+          ),
         ),
-        body: Container( // ADDED THIS 23:49
-          // decoration: BoxDecoration(
-          //   gradient: LinearGradient(
-          //     colors: [
-          //       Colors.pink.shade400,
-          //       Colors.red.shade400,
-          //     ],
-          //     begin: const FractionalOffset(0.0, 0.5),
-          //     end: const FractionalOffset(1.0, 0.5),
-          //   )
-          // ),
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topRight,
+              end: Alignment.bottomLeft,
+              colors: [
+                Colors.red.shade400,
+                Colors.pink.shade400,
+              ],
+            )
+          ),
           child: const TabBarView(
             children: [
-             LoginScreen(),
-             RegisterScreen(),
+              LoginScreen(),
+              RegisterScreen(),
             ],
           ),
-        )
+        ),
       ),
     );
   }

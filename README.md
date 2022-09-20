@@ -843,7 +843,7 @@ dependencies {
                             getCurrentLocation();
                         },
                         style: ElevatedButton.styleFrom(
-                            primary: Colors.grey, //red.shade300,
+                            primary: Colors.grey, //red.shade400,
                             shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30),
                             ),
@@ -858,8 +858,8 @@ dependencies {
                 decoration: BoxDecoration(
                     gradient: LinearGradient(
                     colors: [
-                        Colors.pink.shade300,
-                        Colors.red.shade300,
+                        Colors.pink.shade400,
+                        Colors.red.shade400,
                     ],
                     begin: const FractionalOffset(0.0, 0.5),
                     end: const FractionalOffset(1.0, 0.5),
@@ -1016,4 +1016,38 @@ Note that when a user like Jose that is not registered to the rider's app (altho
 <p align="center">
  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.1/sources/step11-test-1-4.png" width="195">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.1/sources/step11-test-1-5.png" width="195">
+</p>
+
+## 12. Edit the home screen view
+In the mainScreens.dart, add the home_screen.dart that will contain the info about the process of shipping of a determined product from a seller to an end-point user. <br/>
+
+- It's neccesary to create a new collection in the database that will hold the price per delivery.
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-0.jpeg" width="500">
+</p>
+
+- First the riders checks if there are new avalible orders 1
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-1.jpeg" width="500">
+</p>
+
+- Then he/she will decide whether to confirm the order or not. Also, he/she can check where the seller is located through the option `Show Cafe/Restaurant location` that will open the google maps and display a route. 2
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-2.jpeg" width="500">
+</p>
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-2-1.jpeg" width="500">
+</p>
+
+- After accepting the order, he/she proceeds to go and pick the product from the seller's store location, where he will set the status of the product as picked. 
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-3.jpeg" width="500">
+</p>
+
+- Then he/she goes to location where the customer is to give him/her the product; the moment the product is delivered, he changes the status of the product to delivered. 
+
+- Finally, the earnings are distributed to both the sellers and riders, and the database shows the amount for each one. 5
+
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-4.jpeg" width="500">
 </p>
