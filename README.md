@@ -1,9 +1,23 @@
-# Foddie_riders app
+# Foddie Riders Mobile App for IOS and Android
 
 This app has the following features:
 
 ## Result of the project
 Thefinal result of this project belong to the [`ver-1.2`](https://github.com/jatolentino/Flutter-Foodie-Rider/tree/v1.2)
+
+<p align="center">
+ <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.1/sources/step11-test-1-4.png" width="195">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.1/sources/step11-test-1-5.png" width="195">
+</p><br/>
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-1.jpeg" width="500">
+</p><br/>
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-2-1.jpeg" width="500">
+</p><br/>
+<p align="center">
+  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-4.jpeg" width="500">
+</p>
 
 <!-- <p align="center">
     	<img src="https://github.com/jatolentino/Foodie/.../file.png" width="400">
@@ -1026,15 +1040,15 @@ In the mainScreens.dart, add the home_screen.dart that will contain the info abo
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-0.jpeg" width="500">
 </p>
 
-- First the riders checks if there are new avalible orders 1
+- First the riders checks if there are new avalible orders.
 <p align="center">
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-1.jpeg" width="500">
 </p>
 
-- Then he/she will decide whether to confirm the order or not. Also, he/she can check where the seller is located through the option `Show Cafe/Restaurant location` that will open the google maps and display a route. 2
+- Then he/she will decide whether to confirm the order or not. Also, he/she can check where the seller is located through the option `Show Cafe/Restaurant location` that will open the google maps and display a route.
 <p align="center">
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-2.jpeg" width="500">
-</p>
+</p><br/>
 <p align="center">
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-2-1.jpeg" width="500">
 </p>
@@ -1046,7 +1060,7 @@ In the mainScreens.dart, add the home_screen.dart that will contain the info abo
 
 - Then he/she goes to location where the customer is to give him/her the product; the moment the product is delivered, he changes the status of the product to delivered. 
 
-- Finally, the earnings are distributed to both the sellers and riders, and the database shows the amount for each one. 5
+- Finally, the earnings are distributed to both the sellers and riders, and the database shows the amount for each one.
 
 <p align="center">
   <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.2/sources/step12-test-4.jpeg" width="500">
