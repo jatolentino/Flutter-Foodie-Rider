@@ -3,7 +3,7 @@
 This app has the following features:
 
 ## Result of the project
-This is the final result of the projected obtained @ the step 11 that belongs to the [`ver-1.4`]()
+Thefinal result of this project belong to the [`ver-1.2`](https://github.com/jatolentino/Flutter-Foodie-Rider/tree/v1.2)
 
 <!-- <p align="center">
     	<img src="https://github.com/jatolentino/Foodie/.../file.png" width="400">
@@ -22,7 +22,7 @@ Once created a VS code folder project
 
 ## How to run the project?
 
-<!-- - Clone the repository and open the terminal and navigate to the `ios` folder, then run:
+Clone the repository and open the terminal and navigate to the `ios` folder, then run:
 
     ```bash
     flutter pub add firebase_auth
@@ -30,12 +30,14 @@ Once created a VS code folder project
     //sudo gem install cocoapods
     flutter pub get
     pod install
-    ``` -->
+    ```
+
+- Configure the firebase database, following the link [`Step 8: Create a firebase project`](https://github.com/jatolentino/Flutter-Foodie-Foodie#configure_firebase)
+
+- Enjoy!
+https://github.com/jatolentino/Flutter-Foodie-Rider/tree/v1.2
 
 
-<!-- 
-- Configure the firebase database, following the Step 8 (`Create a firebase project`).
-- Enjoy! -->
 
 ## Follow along
 
