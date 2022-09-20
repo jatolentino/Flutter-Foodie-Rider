@@ -10,7 +10,7 @@ This app has the following features:
 
 
 ## Result of the project
-The final result of this project belong to the [`ver-1.2`](https://github.com/jatolentino/Flutter-Foodie-Rider/tree/v1.2) and it possess a login/register panel a dashboard to manage the shipping workflow and a google-maps integration that draws the route from the seller's store to the end customer.
+The final result of this project belongs to the [`ver-1.2`](https://github.com/jatolentino/Flutter-Foodie-Rider/tree/v1.2) and it possess a login/register panel a dashboard to manage the shipping workflow and a google-maps integration that draws the route from the seller's store to the end customer.
 
 <p align="center">
  <img src="https://github.com/jatolentino/Flutter-Foodie-Rider/blob/v1.1/sources/step11-test-1-4.png" width="195">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
