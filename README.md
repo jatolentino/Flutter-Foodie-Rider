@@ -32,11 +32,9 @@ Clone the repository and open the terminal and navigate to the `ios` folder, the
     pod install
     ```
 
-- Configure the firebase database, following the link [`Step 8: Create a firebase project`](https://github.com/jatolentino/Flutter-Foodie-Foodie#configure_firebase)
+- Configure the firebase database, following the link [`Step 8: Create a firebase project`](https://github.com/jatolentino/Flutter-Foodie#configure_firebase)
 
 - Enjoy!
-https://github.com/jatolentino/Flutter-Foodie-Rider/tree/v1.2
-
 
 
 ## Follow along
