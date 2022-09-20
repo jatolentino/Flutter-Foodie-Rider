@@ -3,7 +3,7 @@
 This app has the following features:
 
 - Login/Register Screen
-- Firebase databse integration
+- Firebase database integration
 - Google maps navigation
 - Dashboard to manage menu orders
 - System administration of payments
